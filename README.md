@@ -60,6 +60,14 @@ A platform for Sri Lankan schools that brings school operations and public websi
 - **Diploma in Software Engineering** — NIBM, 2023–2024
 - Exploring AI alongside full-stack engineering.
 
+## 05 / Code in motion
+
+<p align="center">
+  <img src="./assets/contribution-snake.svg" width="100%" alt="Animated snake moving through my GitHub contribution calendar, with cyan and violet accents." />
+</p>
+
+<p align="center"><sub>A year of contributions, in motion · Refreshed daily</sub></p>
+
 ---
 
 <div align="center">
