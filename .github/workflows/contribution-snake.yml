@@ -1,0 +1,56 @@
+name: Refresh contribution snake
+
+on:
+  schedule:
+    - cron: "23 1 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/contribution-snake.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution animation
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/contribution-snake.svg?color_snake=%2371e2da&color_dots=%23161b22,%23243241,%234b4775,%237c69b0,%23ad8aff
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Save animation to profile
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import base64, json, os, pathlib, urllib.request, urllib.error
+          path = "assets/contribution-snake.svg"
+          url = f"https://api.github.com/repos/{os.environ['REPOSITORY']}/contents/{path}"
+          headers = {"Authorization": f"Bearer {os.environ['GH_TOKEN']}", "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
+          payload = {"message": "Refresh contribution animation", "branch": "main", "content": base64.b64encode(pathlib.Path("dist/contribution-snake.svg").read_bytes()).decode()}
+          try:
+              with urllib.request.urlopen(urllib.request.Request(url + "?ref=main", headers=headers)) as response:
+                  current = json.load(response)
+              if current.get("content", "").replace("\n", "") == payload["content"]:
+                  print("Animation is already current")
+                  raise SystemExit(0)
+              payload["sha"] = current["sha"]
+          except urllib.error.HTTPError as error:
+              if error.code != 404:
+                  raise
+          request = urllib.request.Request(url, data=json.dumps(payload).encode(), headers={**headers, "Content-Type": "application/json"}, method="PUT")
+          with urllib.request.urlopen(request) as response:
+              print("Animation saved:", response.status)
+          PY
