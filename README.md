@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://eduverse.site"><img src="https://img.shields.io/badge/EXPLORE_EDUVERSE-71E2DA?style=for-the-badge&amp;logoColor=090E1B" alt="Explore EduVerse" /></a>
-  <a href="https://www.linkedin.com/in/sandarux"><img src="https://img.shields.io/badge/LINKEDIN-AD8AFF?style=for-the-badge&amp;logoColor=090E1B" alt="LinkedIn" /></a>
-  <a href="mailto:sandaruvithanage.dev@gmail.com"><img src="https://img.shields.io/badge/LET'S_TALK-20283D?style=for-the-badge&amp;logoColor=FFFFFF" alt="Email Sandaru" /></a>
+  <a href="https://eduverse.site"><img src="./assets/eduverse.svg" alt="Explore EduVerse" /></a>
+  <a href="https://www.linkedin.com/in/sandarux"><img src="./assets/linkedin.svg" alt="LinkedIn" /></a>
+  <a href="mailto:sandaruvithanage.dev@gmail.com"><img src="./assets/email.svg" alt="Email Sandaru" /></a>
 </p>
 
 <p align="center">
