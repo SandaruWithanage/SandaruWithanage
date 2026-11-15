@@ -1,25 +1,28 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/profile-banner.svg" width="100%" alt="Sandaru Vithanage — Full Stack Engineer. Thoughtful interfaces. Resilient systems. Built for the real world." />
+</p>
 
-# Sandaru Vithanage
-### Full Stack Engineer · Sri Lanka
+<p align="center">
+  <a href="https://eduverse.site"><img src="https://img.shields.io/badge/EXPLORE_EDUVERSE-71E2DA?style=for-the-badge&amp;logoColor=090E1B" alt="Explore EduVerse" /></a>
+  <a href="https://www.linkedin.com/in/sandarux"><img src="https://img.shields.io/badge/LINKEDIN-AD8AFF?style=for-the-badge&amp;logoColor=090E1B" alt="LinkedIn" /></a>
+  <a href="mailto:sandaruvithanage.dev@gmail.com"><img src="https://img.shields.io/badge/LET'S_TALK-20283D?style=for-the-badge&amp;logoColor=FFFFFF" alt="Email Sandaru" /></a>
+</p>
 
-**From database-level security to interfaces people enjoy using.**
+<p align="center">
+  I connect the details that make a product work:<br />
+  <strong>clear interfaces, reliable APIs, and data boundaries you can trust.</strong>
+</p>
 
-I build full-stack systems with a focus on tenant isolation, reliable APIs,  
-and practical workflows for schools and businesses.
+<br />
 
-[Explore EduVerse ↗](https://eduverse.site) · [LinkedIn](https://www.linkedin.com/in/sandarux) · [Email](mailto:sandaruvithanage.dev@gmail.com)
+## 01 / Featured build
 
-</div>
-
----
-
-## Building for the real world
-
-### 🎓 EduVerse
+### EduVerse · A connected school, by design
 **Multi-tenant school management SaaS · Phase 1 in production**
 
-Lead developer, architect, and project owner on a team building for Sri Lankan schools.
+**My role:** Lead developer, architect, and project owner · Team project
+
+A platform for Sri Lankan schools that brings school operations and public websites together, with tenant isolation built into the database.
 
 - **Data isolation:** PostgreSQL Row-Level Security separates each school's data.
 - **Offline workflows:** IndexedDB and background jobs support data capture in low-connectivity environments.
@@ -30,7 +33,7 @@ Lead developer, architect, and project owner on a team building for Sri Lankan s
 
 [Visit EduVerse →](https://eduverse.site)
 
-## Selected public work
+## 02 / More from the workbench
 
 | Project | What I'm building | Stack |
 | :--- | :--- | :--- |
@@ -40,7 +43,7 @@ Lead developer, architect, and project owner on a team building for Sri Lankan s
 
 [Browse all repositories →](https://github.com/SandaruWithanage?tab=repositories)
 
-## My toolkit
+## 03 / Engineering toolkit
 
 | Area | Technologies |
 | :--- | :--- |
@@ -50,7 +53,7 @@ Lead developer, architect, and project owner on a team building for Sri Lankan s
 | **Data & background work** | PostgreSQL · MySQL · Redis · BullMQ · IndexedDB |
 | **Delivery & testing** | Docker · Linux · Nginx · GitHub Actions · Jest · Playwright |
 
-## Learning & foundations
+## 04 / Foundations & curiosity
 
 - **Pearson HND in Computing** — ESOFT, Colombo
 - **ICET Certified Master programme** — ICET, Panadura
