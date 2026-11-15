@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+<title id="title">Sandaru Vithanage — Full Stack Engineer</title><desc id="desc">Building thoughtful interfaces and resilient systems. Based in Sri Lanka.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090e1b"/><stop offset="1" stop-color="#15112d"/></linearGradient><linearGradient id="accent"><stop stop-color="#59e8df"/><stop offset="1" stop-color="#ad8aff"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#9caeca" stroke-opacity=".055"/></pattern></defs>
+<rect width="1280" height="400" rx="24" fill="url(#bg)"/><rect width="1280" height="400" rx="24" fill="url(#grid)"/>
+<circle cx="1140" cy="100" r="210" fill="#8360ff" opacity=".06"/><circle cx="1190" cy="310" r="170" fill="#49e5d3" opacity=".04"/>
+<path d="M68 64h42" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+<g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<text x="68" y="105" fill="#71e2da" font-size="14" letter-spacing="4">FULL STACK ENGINEER</text>
+<text x="64" y="179" fill="#f4f6ff" font-size="58" font-weight="700" letter-spacing="-2">Sandaru Vithanage<tspan fill="#71e2da">.</tspan></text>
+<text x="68" y="227" fill="#b8c2d9" font-size="23">Thoughtful interfaces. Resilient systems.</text>
+<text x="68" y="263" fill="#b8c2d9" font-size="23">Built for the real world.</text>
+<text x="68" y="340" fill="#8e9bb7" font-size="14" letter-spacing="2">SRI LANKA  /  WEB · APIS · DATA</text>
+</g>
+<g fill="none" stroke="url(#accent)" stroke-width="1.5"><rect x="970" y="112" width="180" height="180" rx="30" transform="rotate(-12 1060 202)" opacity=".25"/><rect x="970" y="112" width="180" height="180" rx="30" transform="rotate(12 1060 202)" opacity=".5"/><path d="m1035 170-32 32 32 32m50-64 32 32-32 32m-12-77-26 90" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+<rect x="1" y="1" width="1278" height="398" rx="23" fill="none" stroke="#b2c0ed" stroke-opacity=".12"/>
+</svg>
